@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from "react";
 import { initializeApp } from "firebase/app";
+
 import {
   collection,
   doc,
@@ -2056,7 +2057,7 @@ function InterviewScreen({ survey, interviewer, onBack, onSessionComplete }) {
 }
 
 // ─── App root ─────────────────────────────────────────────────────────────────
-export default function ResearchApp() {
+export default function DaroboApp() {
   const [interviewer, setInterviewer] = useState(null);
   const [screen, setScreen] = useState("login");
   const [activeSurveyId, setActiveSurveyId] = useState(null);

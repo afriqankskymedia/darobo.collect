@@ -1,10 +1,9 @@
 import { StrictMode, useContext } from "react";
 import { createRoot } from "react-dom/client";
-import "./App.css";
-import ResearchApp from "./InterviewPanel";
+import DaroboApp from "./Darobo";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <ResearchApp/>
+    <DaroboApp />
   </StrictMode>,
 );
