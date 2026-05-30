@@ -1811,7 +1811,7 @@ function LoginScreen({ onLogin }) {
       <div className="login-card">
         <div className="login-header">
           <div className="login-logo">
-            <img src="./src/assets/logo.svg" alt="" className="logo-mark" />
+            <img src="./public/logo.ico" alt="" className="logo-mark" />
             <div>
               <div className="logo-text">DaroboCollect</div>
               <div className="logo-tagline">Field Research Platform</div>
@@ -1898,7 +1898,7 @@ function HomeScreen({ interviewer, onStartSurvey, sessions, onLogout }) {
       <StatusBar saving={false} gpsStatus="ready" offlineCount={offlineCount} />
       <div className="topbar">
         <div className="topbar-logo">
-          <img src="./src/assets/logo.svg" alt="" className="logo-mark-sm" />
+          <img src="./public/logo.ico" alt="" className="logo-mark-sm" />
           <span className="topbar-logo-text">DaroboCollect</span>
         </div>
         <div className="topbar-user">
