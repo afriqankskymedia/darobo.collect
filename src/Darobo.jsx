@@ -2432,6 +2432,7 @@ const INTERVIEWERS = [
   { id: "INT004", name: "Maxwel Mwania", location: "Nairobi", pin: "1234" },
   { id: "INT005", name: "Juda Mohamed", location: "Mombasa", pin: "1234" },
   { id: "INT006", name: "Michael Kaoto", location: "Mombasa", pin: "1234" },
+  { id: "INT007", name: "Yvonne Ochieng", location: "Nairobi", pin: "1234" },
 ];
 
 // ─── Utilities ────────────────────────────────────────────────────────────────
