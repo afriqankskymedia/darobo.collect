@@ -8,7 +8,7 @@ import { db } from "./firebase";
 
 // ─── Survey data ──────────────────────────────────────────────────────────────
 const SURVEYS = {
-  chama: {
+  chamas: {
     id: "chama",
     title: "Chama Secretaries & SACCO",
     subtitle: "H1 & H2 Hypothesis Validation",
@@ -396,7 +396,7 @@ const SURVEYS = {
     ],
   },
 
-  realestate: {
+  landlords: {
     id: "realestate",
     title: "Real Estate — Landlords",
     subtitle: "H1 & H2 Hypothesis Validation",
@@ -2542,7 +2542,7 @@ function Toast({ msg, type }) {
 // ─── Firebase write ───────────────────────────────────────────────────────────
 async function toFirebase(data) {
   await setDoc(
-    doc(db, data.surveyId, data.interviewerId),
+     doc(db, data.surveyId, data.sessionId),
     { ...data },
     { merge: true },
   );
