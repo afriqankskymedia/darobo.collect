@@ -2542,7 +2542,7 @@ function Toast({ msg, type }) {
 // ─── Firebase write ───────────────────────────────────────────────────────────
 async function toFirebase(data) {
   await setDoc(
-     doc(db, data.surveyId, data.sessionId),
+     doc(db, "AnswersDB", data.sessionId),
     { ...data },
     { merge: true },
   );
