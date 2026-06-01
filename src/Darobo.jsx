@@ -397,7 +397,7 @@ const SURVEYS = {
   },
 
   landlords: {
-    id: "realestate",
+    id: "landlord",
     title: "Real Estate — Landlords",
     subtitle: "H1 & H2 Hypothesis Validation",
     icon: "📝",
